@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smart Tata Ruang Tegal Kota</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_address_returned">Nama Jalan Tidak Diketahui</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_peta">Peta</string>
+    <string name="title_activity_tentang">TentangActivity</string>
+    <string name="title_activity_permissions">PermissionsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="permission_dekripsi">Aplikasi membutuhkan akses untuk mendeteksi lokasi anda berada. Silahkan untuk menekan tombol SAYA SETUJU untuk mengaktifkan akses lokasi pada telepon genggam anda.</string>
+    <string name="peringatan">PERINGATAN</string>
+</resources>

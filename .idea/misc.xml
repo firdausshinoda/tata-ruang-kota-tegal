@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/drawable/ic_outline_my_location_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/drawable/ic_round_my_location_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/drawable/radius_all_silver.xml" value="0.26614583333333336" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/drawable/radius_cardtoolbar_black.xml" value="0.26614583333333336" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/drawable/radius_top_white_shadow.xml" value="0.26614583333333336" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/activity_permissions.xml" value="0.19293478260869565" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/activity_peta.xml" value="0.12158054711246201" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/activity_splash.xml" value="0.19293478260869565" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/app_bar_peta.xml" value="0.14394765539803708" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/bottom_shet_peta.xml" value="0.34491634491634493" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/bottom_shet_tentang.xml" value="0.25" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/content_permissions.xml" value="0.4" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/nav_header_peta.xml" value="0.25" />
+        <entry key="..\:/Kerja/Projek/TataRuangTegalKotaNew/app/src/main/res/layout/recycler_kategori.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

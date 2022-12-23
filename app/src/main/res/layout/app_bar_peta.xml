@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PetaActivity">
+
+    <include layout="@layout/content_peta" />
+    <include layout="@layout/bottom_shet_peta" />
+    <include layout="@layout/bottom_shet_tentang" />
+    <LinearLayout android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/toolbar_ln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:cardBackgroundColor="#CCCCCC"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="5dp">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_toolbar_inside"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="24.5dp">
+                    <com.google.android.material.appbar.AppBarLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorWhite"
+                        android:layout_marginBottom="-3dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light">
+                        <androidx.appcompat.widget.Toolbar
+                            android:id="@+id/toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorWhite"
+                            app:subtitleTextAppearance="?android:textAppearanceSmall"
+                            app:titleTextAppearance="?android:textAppearanceSmall"/>
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            android:visibility="visible"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:indeterminate="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="-10dp"
+                            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" />
+                    </com.google.android.material.appbar.AppBarLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_layer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="popup_layer"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_outline_layers_24"
+            app:backgroundTint="@color/colorWhite"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
